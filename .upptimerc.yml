@@ -17,7 +17,10 @@ sites:
     expectedStatusCodes:
       - 200
   - name: API 
+    method: GET
     url: https://api.element-gaming.eu   
+    headers:
+      - "Content-Type: application/json"
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
     maxResponseTime: 5000
     expectedStatusCodes:
@@ -25,7 +28,10 @@ sites:
       - 201
       - 404
   - name: Telegram Bot 
+    method: GET
     url: https://api.element-gaming.eu  
+    headers:
+      - "Content-Type: application/json"
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
     maxResponseTime: 5000
     expectedStatusCodes:
