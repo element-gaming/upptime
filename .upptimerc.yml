@@ -6,15 +6,12 @@ repo: status # Your GitHub repository name
 sites:
   - name: Website
     url: https://element-gaming.eu
-    __dangerous__disable_verify_peer: true
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
   - name: Web App Network
     url: https://app.element-gaming.eu
-    __dangerous__disable_verify_peer: true
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
-  - name: Shortner URL 
-    url: https://emt.gg
-    __dangerous__disable_verify_peer: true
+  - name: Link shotner manager 
+    url: $EMTGGIP
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
 
 assignees: # Users to assign downtime issues (optional)
