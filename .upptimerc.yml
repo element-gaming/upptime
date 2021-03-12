@@ -11,8 +11,14 @@ sites:
     url: https://app.element-gaming.eu
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png  
   - name: API Service
-    url: https://api.element-gaming.eu
-    icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png  
+    method: GET
+    url: https://api.element-gaming.eu/api/twitch/online-utils
+    headers:
+      - "Content-Type: application/json"
+    icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png
+    maxResponseTime: 5000
+    expectedStatusCodes:
+      - 200
   - name: Shortner Service
     url: https://emt.gg
     icon: https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png  
