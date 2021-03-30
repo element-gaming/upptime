@@ -1,7 +1,7 @@
 url: https://api.element-gaming.eu/api/v1/twitch/utils
-status: degraded
-code: 502
-responseTime: 19021
-lastUpdated: 2021-03-30T07:09:03.949Z
+status: up
+code: 200
+responseTime: 483
+lastUpdated: 2021-03-30T07:20:15.208Z
 startTime: Fri Mar 12 2021 17:01:50 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
