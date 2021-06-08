@@ -76,17 +76,17 @@
     "url": "https://links.emt.gg",
     "icon": "https://app.element-gaming.eu/_nuxt/icons/icon_64x64.c8d5ec.png",
     "slug": "social-links-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 234,
-    "timeDay": 299,
-    "timeWeek": 256,
-    "timeMonth": 274,
-    "timeYear": 234,
+    "time": 502,
+    "timeDay": 11920,
+    "timeWeek": 3166,
+    "timeMonth": 1001,
+    "timeYear": 502,
     "dailyMinutesDown": {}
   }
 ]
